@@ -1,5 +1,5 @@
 // This is an Employee class that calculates and displays employee salary details
-class Employee {
+class SalaryCalculator {
     // Instance variables to store employee information
     String name;        // Stores employee name
     int id;            // Stores employee ID
@@ -8,7 +8,7 @@ class Employee {
     double da;         // Dearness Allowance
 
     // Constructor to initialize employee details
-    Employee(String name, int id, double basicSalary, double hra, double da) {
+    SalaryCalculator(String name, int id, double basicSalary, double hra, double da) {
         this.name = name;
         this.id = id;
         this.basicSalary = basicSalary;
@@ -29,7 +29,7 @@ class Employee {
     // Main method to test the Employee class
     public static void main(String[] args) {
         // Create an employee object with sample values
-        Employee emp = new Employee("John Doe", 12345, 50000, 10000, 5000);
+        SalaryCalculator emp = new SalaryCalculator("John Doe", 12345, 50000, 10000, 5000);
         // Display the employee details
         emp.displaySalary();
     }
