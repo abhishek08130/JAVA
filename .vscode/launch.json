@@ -1,0 +1,238 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AreaCalculator",
+            "request": "launch",
+            "mainClass": "AreaCalculator",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Bird",
+            "request": "launch",
+            "mainClass": "Bird",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Car$Main",
+            "request": "launch",
+            "mainClass": "Car$Main",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Constructor",
+            "request": "launch",
+            "mainClass": "Constructor",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "EncapsulationExample",
+            "request": "launch",
+            "mainClass": "EncapsulationExample",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Exceptionandle",
+            "request": "launch",
+            "mainClass": "Exceptionandle",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Flow_construct",
+            "request": "launch",
+            "mainClass": "Flow_construct",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Flows",
+            "request": "launch",
+            "mainClass": "Flows",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "LeapYearChecker",
+            "request": "launch",
+            "mainClass": "LeapYearChecker",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Marks",
+            "request": "launch",
+            "mainClass": "Marks",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "MarksCalculator",
+            "request": "launch",
+            "mainClass": "MarksCalculator",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "RuntimePolymorphism",
+            "request": "launch",
+            "mainClass": "RuntimePolymorphism",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "SalaryCalculator",
+            "request": "launch",
+            "mainClass": "SalaryCalculator",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "SuperCons",
+            "request": "launch",
+            "mainClass": "SuperCons",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "UsingKeyword",
+            "request": "launch",
+            "mainClass": "UsingKeyword",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "callbyvalue",
+            "request": "launch",
+            "mainClass": "callbyvalue",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "constructor_Overloading$Main",
+            "request": "launch",
+            "mainClass": "constructor_Overloading$Main",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "enums",
+            "request": "launch",
+            "mainClass": "enums",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "even",
+            "request": "launch",
+            "mainClass": "even",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "foreachexample",
+            "request": "launch",
+            "mainClass": "foreachexample",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "holosquare",
+            "request": "launch",
+            "mainClass": "holosquare",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "loopingoverstring",
+            "request": "launch",
+            "mainClass": "loopingoverstring",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "methodoverloadingusingargs",
+            "request": "launch",
+            "mainClass": "methodoverloadingusingargs",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "objectclone",
+            "request": "launch",
+            "mainClass": "objectclone",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "objectss",
+            "request": "launch",
+            "mainClass": "objectss",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "printtriangle",
+            "request": "launch",
+            "mainClass": "printtriangle",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "reversestar",
+            "request": "launch",
+            "mainClass": "reversestar",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "starprint",
+            "request": "launch",
+            "mainClass": "starprint",
+            "projectName": "JAVA_e4cb54d"
+        }
+    ]
+}
