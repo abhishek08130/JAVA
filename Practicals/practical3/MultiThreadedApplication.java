@@ -1,5 +1,20 @@
-// Design a java program that Implements a multi-thread application that has three threads. first thread generates random integer every 1 second and if the value is even, second thread computes the square of the number and prints. if the value is odd, the third thread will print the value of cube of the number.
+// This program creates a multi-threaded application that does the following:
+//
+// 1. First Thread (RandomNumberGenerator):
+//    - Generates a random number between 1-100 every second
+//    - Passes this number to a NumberProcessor
+//
+// 2. Second Thread (SquareCalculator): 
+//    - Activates when an even number is generated
+//    - Calculates and prints the square of that number
+//
+// 3. Third Thread (CubeCalculator):
+//    - Activates when an odd number is generated  
+//    - Calculates and prints the cube of that number
+
 import java.util.Random;
+
+// This class generates random numbers continuously
 class RandomNumberGenerator extends Thread {
     private final NumberProcessor numberProcessor;
     public RandomNumberGenerator(NumberProcessor numberProcessor) {
@@ -14,7 +29,7 @@ class RandomNumberGenerator extends Thread {
                 int number = random.nextInt(100) + 1;
                 System.out.println("Generated number: " + number);
                 numberProcessor.processNumber(number);
-                Thread.sleep(1000);
+                Thread.sleep(1000);  // Wait for 1 second
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -22,6 +37,7 @@ class RandomNumberGenerator extends Thread {
     }
 }
 
+// This class decides whether to calculate square or cube
 class NumberProcessor {
     private Thread squareThread;
     private Thread cubeThread;
@@ -32,16 +48,17 @@ class NumberProcessor {
     }
 
     public void processNumber(int number) {
-        if (number % 2 == 0) {
+        if (number % 2 == 0) {  // If number is even
             squareThread = new Thread(new SquareCalculator(number));
             squareThread.start();
-        } else {
+        } else {  // If number is odd
             cubeThread = new Thread(new CubeCalculator(number));
             cubeThread.start();
         }
     }
 }
 
+// This class handles calculating squares of even numbers
 class SquareCalculator implements Runnable {
     private final int number;
     public SquareCalculator(int number) {
@@ -55,6 +72,7 @@ class SquareCalculator implements Runnable {
     }
 }
 
+// This class handles calculating cubes of odd numbers
 class CubeCalculator implements Runnable {
     private final int number;
 
@@ -68,10 +86,12 @@ class CubeCalculator implements Runnable {
         System.out.println("Cube of " + number + " is: " + result);
     }
 }
+
+// Main class that starts the whole process
 public class MultiThreadedApplication {
     public static void main(String[] args) {
         NumberProcessor numberProcessor = new NumberProcessor();
         RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator(numberProcessor);
-        randomNumberGenerator.start();
+        randomNumberGenerator.start();  // Start generating random numbers
     }
 }
