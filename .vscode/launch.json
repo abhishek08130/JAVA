@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultiThreadedApplication",
+            "request": "launch",
+            "mainClass": "practical3.MultiThreadedApplication",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "JAVA_e4cb54d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
